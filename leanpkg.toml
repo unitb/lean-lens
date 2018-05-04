@@ -1,0 +1,9 @@
+[package]
+name = "lean-lens"
+version = "0.1"
+lean_version = "nightly-2018-04-20"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover/mathlib", rev = "22e671c5ed5fd1b891fb73aa10c9425d1c6cfd3d"}
+lean-lib = {git = "https://github.com/unitb/lean-lib", rev = "a69415fb538c2c6b53435033cd0e1663ac0564d0"}
